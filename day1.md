@@ -1,3 +1,4 @@
+## The shell
 ```bash
 #1
 echo $SHELL
