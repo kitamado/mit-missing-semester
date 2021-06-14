@@ -27,4 +27,6 @@ find {a..e} -name "*.html" | xargs -d '\n' tar -cvzf html.zip
 # check, list all files in html.zip verbosely
 tar tvf html.zip
 
+#5 
+find . -type f | xargs -d '\n' ls -lt
 ```
