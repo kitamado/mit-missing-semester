@@ -20,5 +20,11 @@ vim ex3.sh
 chmod 777 bash3.sh ex3.sh
 ./ex3.sh
 
+#4
+mkdir {a..e}
+touch {a..e}/{1..9}.html
+find {a..e} -name "*.html" | xargs -d '\n' tar -cvzf html.zip
+# check, list all files in html.zip verbosely
+tar tvf html.zip
 
 ```
