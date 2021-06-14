@@ -15,5 +15,10 @@ cd ~
 polo
 
 #3
+vim bash3.sh
+vim ex3.sh
+chmod 777 bash3.sh ex3.sh
+./ex3.sh
+
 
 ```
