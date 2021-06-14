@@ -8,5 +8,12 @@ ls -t
 ls --color=auto
 
 #2
+vim marco.sh
+source marco.sh
+marco
+cd ~
+polo
+
+#3
 
 ```
